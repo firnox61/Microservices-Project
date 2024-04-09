@@ -1,0 +1,14 @@
+{
+  {
+    "UpstreamHttpMethod": [ "Get" ],
+    "UpstreamPathTemplate": "/r/{id}",
+    "DownstreamPathTemplate": "/api/rest/{id}",
+    "DownstreamScheme": "http",
+    "DownstreamHostAndPorts": [
+      {
+        "Host": "localhost",
+        "Port": 9001
+      }
+    ]
+  }
+}
