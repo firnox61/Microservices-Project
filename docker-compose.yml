@@ -1,0 +1,17 @@
+version: '4.2'
+
+
+services:
+  s_api_gateway: 
+	container_name: c_api-gateway
+	image: firnox61/apigateway
+	build:
+		context: .
+		dockerfile:APIGateway/Dockerfile
+	ports:
+    - 80:80
+-   
+		
+
+
+  
