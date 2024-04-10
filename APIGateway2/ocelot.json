@@ -11,7 +11,7 @@
         "DownstreamScheme": "https",
         "DownstreamHostAndPorts": [
           {
-            "Host": "localhost",
+            "Host": "c_rest_api",
             "Port": 9001
           }
         ]
@@ -23,7 +23,7 @@
         "DownstreamScheme": "https",
         "DownstreamHostAndPorts": [
           {
-            "Host": "localhost",
+            "Host": "c_contact_api",
             "Port": 9000
           }
         ]
